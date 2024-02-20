@@ -1,13 +1,12 @@
 <template>
-  <div>
+  <header></header>
+
+  <main>
     <slot />
-  </div>
+  </main>
+  <footer></footer>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts" setup></script>
 
-</script>
-
-<style>
-
-</style>
+<style></style>
