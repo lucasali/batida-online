@@ -1,7 +1,11 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+useHead({
+  titleTemplate(title) {
+    return `Home • ${title}`
+  }
+})
+</script>
 
 <template>
-  <div>
-    <ModeToggle></ModeToggle>
-  </div>
+  <div></div>
 </template>
