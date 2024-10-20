@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/tailwind.css", "~/assets/css/fonts.css"],
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "radix-vue/nuxt", "nuxt-icon", "@nuxt/image"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "nuxt-icon", "@nuxt/image", "@nuxt/content"],
   colorMode: {
     classSuffix: "",
   },
